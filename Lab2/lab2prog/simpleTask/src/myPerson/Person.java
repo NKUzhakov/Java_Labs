@@ -52,7 +52,8 @@ public class Person {
             return false;
         if(other == this)
             return true;
-        if(other instanceof Person){
+        // if(other instanceof Person){
+        if(this.getClass() == other.getClass()){
             Person otherPerson = (Person)other;
             return Objects.equals(otherPerson.firstName, this.firstName) &&
                     Objects.equals(otherPerson.lastName, this.lastName) &&
