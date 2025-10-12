@@ -1,0 +1,2 @@
+compile: javac -cp "./lib/junit-platform-console-standalone-1.10.0.jar;src tests" -d ./out ./src/tests/*.java ./src/transportations/*.java ./src/transportations/passengers/*.java ./src/transportations/vehicles/*.java
+test: java -jar ./lib/junit-platform-console-standalone-1.10.0.jar -cp ./out --scan-classpath

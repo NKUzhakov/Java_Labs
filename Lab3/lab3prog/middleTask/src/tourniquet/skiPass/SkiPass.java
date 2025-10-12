@@ -23,3 +23,4 @@ public abstract class SkiPass implements Cloneable{
         return super.clone();
     }
 }
+// останні 4 класи в даній директорії (конкретні скі-паси) прибрати до лр№5 "якщо в них немає дод.логіки"
