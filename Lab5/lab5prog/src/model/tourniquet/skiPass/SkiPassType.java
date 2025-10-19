@@ -1,0 +1,9 @@
+package model.tourniquet.skiPass;
+
+public enum SkiPassType {
+    SEASON,
+    WORKDAY_CLIMB_AMOUNT_UNLIMITED,
+    WORKDAY_CLIMB_AMOUNT_LIMITED,
+    WEEKEND_CLIMB_AMOUNT_UNLIMITED,
+    WEEKEND_CLIMB_AMOUNT_LIMITED
+}
